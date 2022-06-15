@@ -3,18 +3,18 @@
     "title": "galletira oreo",
     "price": 120,
     "thumbnail": "url de la foto del producto",
-    "id": null
+    "id": 1
   },
   {
     "title": "galletira mana",
     "price": 100,
     "thumbnail": "url de la foto del producto",
-    "id": null
+    "id": 2
   },
   {
     "title": "galletira oreo",
     "price": 130,
     "thumbnail": "url de la foto del producto",
-    "id": null
+    "id": 3
   }
 ]
