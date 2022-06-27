@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Create your product</title>
+</head>
+<body>
+    <div class="product-form">
+        <h1 style="margin-left: 10px;">Create your product</h1>
+        <form class="row g-3 needs-validation" novalidate action="/api/productos" method="POST">
+            <div class="col-md-4" style="margin-left: 2px;">
+              <label for="title" class="form-label">Title</label>
+              <input type="text" class="form-control" name="title" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="price" class="form-label">Price</label>
+              <input class="form-control" type="number" name="price" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4" style="margin-left: 5px;">
+              <label for="thumbnail" class="form-label">Image</label>
+              <div class="input-group has-validation">
+                <input type="text" class="form-control" name="thumbnail" required>
+                <div class="valid-feedback">
+                 Looks good!
+                </div>
+              </div>
+            </div>
+            </div>
+            <div> </div>
+            <div class="col-12" style="padding-top: 10px;";>
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+    </div>
+</body>
+</html>
